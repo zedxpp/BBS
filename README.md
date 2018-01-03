@@ -32,6 +32,8 @@ iOS端地址: [https://github.com/SimleCp/BBS-iOS](https://github.com/SimleCp/BB
 
 ## 使用方式
 
+点个star不迷路 ^-^
+
 ### 让iOS端跑起来
 
 1. `clone` 和 `pod install`, 项目是基于`cocoapods`的.
