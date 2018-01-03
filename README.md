@@ -2,6 +2,10 @@
 
 ### Swift编写的iOS端和服务器端, 服务器端基于[Perfect](https://github.com/PerfectlySoft/Perfect)框架
 
+iOS端地址: [https://github.com/SimleCp/BBS-iOS](https://github.com/SimleCp/BBS-iOS)
+
+服务器端地址: [https://github.com/SimleCp/BBS-Server](https://github.com/SimleCp/BBS-Server)
+
 ![](https://github.com/SimleCp/BBS/blob/master/ScreenShot/1.png)
 
 ![](https://github.com/SimleCp/BBS/blob/master/ScreenShot/2.png)
@@ -80,6 +84,8 @@ let httpAdress = "http://swift520.com:8181/"
 
 7. 重新运行`BBS-Server`和`BBS-iOS`项目. 现在你用的就是你mac上的本地数据库了.
 
+
+### 这两个小demo写了快两个月吧, 有很多细节地方没来得及完善, 同时写两端, 并且在不会用Perfect框架的情况下, 速度很慢了. 
 
 ### 我的Perfect框架使用系列文章, 请戳[cxp.im](http://cxp.im/)
 
