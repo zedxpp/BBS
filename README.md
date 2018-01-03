@@ -40,7 +40,7 @@ iOS端地址: [https://github.com/SimleCp/BBS-iOS](https://github.com/SimleCp/BB
 
 注: 
 
-如果用这个地址, 需要把`BBS-Server` `clone`到本地, 自己运行起来, 也就是`用你的mac当服务器`
+如果用这个地址, 需要把`BBS-Server`项目 `clone`到本地, 自己运行起来, 也就是`用你的mac当服务器`
 
 ```
 let httpAdress = "http://0.0.0.0:8181/"
@@ -64,11 +64,11 @@ let httpAdress = "http://swift520.com:8181/"
 ![](https://github.com/SimleCp/BBS/blob/master/images/0.png)
 
 3. 安装本地MySql, 请看此文章 [点我](http://cxp.im/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/)
-只需要看安装部分即可, 安装完成后, 用命令启动数据库, 终端输出`Starting MySQL  . SUCCESS!`即可.
+只需要看安装部分即可, 安装完成后, 用命令启动数据库, 终端输出`Starting MySQL  . SUCCESS!`, 本地mysql服务启动完成.
 
 4. 安装`Navicat Premium`的`Mac App`, 请自行网上搜索安装.
 
-5. 用`Navicat Premium`, 新建`mysql`连接, 连接成功后, 打开数据库. 按下面的图, 新建一个`bbs`的数据库, 参数请务必和我图上的一致. 然后导入`bbs.sql`文件即可. 见下方图片.
+5. 用`Navicat Premium`, 新建`mysql`连接, 连接成功后, 打开数据库. 按下面的图, 新建一个`bbs`的数据库, 参数请务必和我图上的一致. 然后运行`bbs.sql`文件. 见下方图片.
 
 ![](https://github.com/SimleCp/BBS/blob/master/images/1.png)
 
@@ -82,10 +82,10 @@ let httpAdress = "http://swift520.com:8181/"
 
 6. 导入sql成功后, 在iOS端的`BBS-iOS/Tool.swift`切换为`let httpAdress = "http://0.0.0.0:8181/"`
 
-7. 重新运行`BBS-Server`和`BBS-iOS`项目. 现在你用的就是你mac上的本地数据库了.
+7. 重新运行`BBS-Server`和`BBS-iOS`项目. 现在, 服务器和数据库, 都是用的你mac上的了.
 
 
-### 这两个小demo写了快两个月吧, 有很多细节地方没来得及完善, 同时写两端, 并且在不会用Perfect框架的情况下, 速度很慢了. 
+### 这两个小demo, 写了快两个月吧, 有很多细节地方没来得及完善, 同时写两端, 并且在不会用Perfect框架的情况下, 速度很慢了. 
 
 ### 我的Perfect框架使用系列文章, 请戳[cxp.im](http://cxp.im/)
 
