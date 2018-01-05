@@ -2,9 +2,9 @@
 
 ### Swift编写的iOS端和服务器端, 服务器端基于[Perfect](https://github.com/PerfectlySoft/Perfect)框架
 
-iOS端地址: [https://github.com/SimleCp/BBS-iOS](https://github.com/SimleCp/BBS-iOS)
+iOS端地址: [https://github.com/zedxpp/BBS-iOS](https://github.com/zedxpp/BBS-iOS)
 
-服务器端地址: [https://github.com/SimleCp/BBS-Server](https://github.com/SimleCp/BBS-Server)
+服务器端地址: [https://github.com/zedxpp/BBS-Server](https://github.com/zedxpp/BBS-Server)
 
 ![](https://github.com/SimleCp/BBS/blob/master/ScreenShot/1.png)
 
