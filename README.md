@@ -30,6 +30,12 @@ iOS端地址: [https://github.com/zedxpp/BBS-iOS](https://github.com/zedxpp/BBS-
 - [x] 获取当前用户信息
 - [ ] ...
 
+## 以下教程编译环境
+
+#### Apple Swift version 4.0.3
+
+#### mysql  Ver 14.14 Distrib 5.7.19
+
 ## 使用方式
 
 点个star不迷路 ^-^
