@@ -61,7 +61,6 @@ let httpAdress = "http://0.0.0.0:8181/"
 如果用这个地址, 直接运行`BBS-iOS`项目即可
 ```
 let httpAdress = "http://swift520.com:8181/"
-
 ```
 
 配置文件在`BBS-iOS/Tool.swift`
