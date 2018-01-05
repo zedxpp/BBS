@@ -16,7 +16,7 @@ iOS端地址: [https://github.com/zedxpp/BBS-iOS](https://github.com/zedxpp/BBS-
 
 注: 运行`BBS-iOS`, 如果你用的是我的服务器地址, 在帖子详情里面有很大的图片情况下, 加载的时候, 会卡一会, 服务器水管小. 没办法 T-T
 
-#### 已完成的接口
+### 已完成的接口
 
 - [x] 注册
 - [x] 登录
