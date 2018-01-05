@@ -34,13 +34,17 @@ iOS端地址: [https://github.com/zedxpp/BBS-iOS](https://github.com/zedxpp/BBS-
 
 #### Apple Swift version 4.0.3
 
-#### mysql  Ver 14.14 Distrib 5.7.19
+查看方式, 打开终端, 输入`swift --version`
+
+#### mysql  Ver 14.14 Distrib 5.7.19(mysql5.6版本也兼容)
+
+输入`mysql --version`
 
 ## 使用方式
 
 点个star不迷路 ^-^
 
-### 让iOS端跑起来
+#### 让iOS端跑起来
 
 1. `clone` 和 `pod install`, 项目是基于`cocoapods`的.
 
@@ -62,7 +66,7 @@ let httpAdress = "http://swift520.com:8181/"
 
 配置文件在`BBS-iOS/Tool.swift`
 
-### 让服务端跑起来
+#### 让服务端跑起来
 
 1. `clone`项目, 并且`cd`到项目目录, `swift build`编译项目(如果你的终端没有翻墙, 那么这个过程会很慢)
 2. 编译完成, 会出现`Linking ./.build/x86_64-apple-macosx10.10/debug/BBS-Server`这样的log输出. 直接拷贝`./.build/x86_64-apple-macosx10.10/debug/BBS-Server`, 运行即可.
