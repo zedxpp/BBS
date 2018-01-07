@@ -102,7 +102,7 @@ struct ServerConfiguration {
     let mysqlPort = 3306 // 默认端口号
     let mysqlPwd = "" // 数据库密码
     let mysqlUser = ""  // 数据库用户名
-    let httpPort =  8181
+    let httpPort =  8181 // 服务器默认端口号
 }
 ```
 
