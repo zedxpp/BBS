@@ -91,7 +91,20 @@ let httpAdress = "http://swift520.com:8181/"
 
 ![](https://github.com/SimleCp/BBS/blob/master/images/5.png)
 
-6. 导入sql成功后, 在iOS端的`BBS-iOS/Tool.swift`切换为`let httpAdress = "http://0.0.0.0:8181/"`
+6. 导入sql成功后, 在iOS端的`BBS-iOS/Tool.swift`切换为`let httpAdress = "http://0.0.0.0:8181/"`, 并且把`BBS-Server/Sources/BBS-Server/ServerConfiguration.swift`的数据库相关配置设置一下, 在没有更改端口号之类的情况下, 你需要填写你的数据库用户名和密码既可.
+
+```
+struct ServerConfiguration {
+    let baseURL =  "http://localhost/" // 本地地址
+    let name = "localhost"  
+    let mysqlDBName  = "bbs"  // 数据库名
+    let mysqlHost = "127.0.0.1" // 数据库本地地址
+    let mysqlPort = 3306 // 默认端口号
+    let mysqlPwd = "" // 数据库密码
+    let mysqlUser = ""  // 数据库用户名
+    let httpPort =  8181
+}
+```
 
 7. 重新运行`BBS-Server`和`BBS-iOS`项目. 现在, 服务器和数据库, 都是用的你mac上的了.
 
