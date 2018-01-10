@@ -111,6 +111,6 @@ struct ServerConfiguration {
 
 ### 这两个小demo, 写了快两个月吧, 有很多细节地方没来得及完善, 同时写两端, 并且在不会用Perfect框架的情况下, 速度很慢了. 
 
-### 如果你也想在mac或者服务器上部署一个属于自己的app后端, 请看我的Perfect框架使用系列文章, 戳我戳我[cxp.im](http://cxp.im/)
+### 如果你也想在mac或者服务器上部署一个属于自己的app后端, 请看我的Perfect框架使用系列文章, 戳我戳我[https://zedxpp.com](https://zedxpp.com)
 
 
