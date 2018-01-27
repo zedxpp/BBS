@@ -74,7 +74,7 @@ let httpAdress = "http://swift520.com:8181/"
 
 ![](https://github.com/SimleCp/BBS/blob/master/images/0.png)
 
-3. 安装本地MySql, 请看此文章 [点我](http://cxp.im/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/)
+3. 安装本地MySql, 请看此文章 [点我](http://zedxpp.com/2017/10/07/Swift%20Perfect%20Mac%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/)
 只需要看安装部分即可, 安装完成后, 用命令启动数据库, 终端输出`Starting MySQL  . SUCCESS!`, 本地mysql服务启动完成.
 
 4. 安装`Navicat Premium`的`Mac App`, 请自行网上搜索安装.
