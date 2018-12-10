@@ -58,7 +58,7 @@ iOS端地址: [https://github.com/zedxpp/BBS-iOS](https://github.com/zedxpp/BBS-
 let httpAdress = "http://0.0.0.0:8181/"
 ```
 
-如果用这个地址, 直接运行`BBS-iOS`项目即可
+~~如果用这个地址, 直接运行`BBS-iOS`项目即可~~ `这个云服务器快到期了, 所以尽量结合 BBS-Server 项目查看iOS端的demo`
 ```
 let httpAdress = "http://swift520.com:8181/"
 ```
